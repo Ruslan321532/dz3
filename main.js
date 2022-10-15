@@ -48,7 +48,7 @@
 //     if(arr1.length < arr2.length) {
 //         console.log(arr2.length);
 //     }else {
-//         console.log("ИДИ ДОМОЙ ");
+//         console.log("ИДИ ДОМОЙ");
 //     }
 // }
 // twoMass(arr1,arr2)
@@ -56,12 +56,8 @@
 
 //////3//////
 
-let k = "Hello"
+let k = prompt("Введите слово")
 function countChar(k) {
-    if (k.length) {
-        console.log(k.length);
-    }else{
-        console.log("g");
-    }
+    console.log(k.length);
 }
 countChar(k)
